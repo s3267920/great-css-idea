@@ -8,6 +8,8 @@ const linkOptions = ref([
 	{ name: 'Quick Flip Text', path: '/quickFlipText' },
 	{ name: 'Animate Borders Card', path: '/animateBordersCard' },
 	{ name: 'Inner Glow Card', path: '/innerGlowCard' },
+	{ name: 'Dynamic Color Logo', path: '/dynamicColorLogo' },
+	{ name: 'Glass Style', path: '/glassStyle' }
 
 ])
 </script>

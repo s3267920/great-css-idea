@@ -24,6 +24,16 @@ const router = createRouter({
       path: '/innerGlowCard',
       component: () => import('../features/InnerGlowCard.vue'),
     },
+    {
+      name: 'Dynamic Color Logo',
+      path: '/dynamicColorLogo',
+      component: () => import('../features/DynamicColorLogo.vue'),
+    },
+    {
+      name: 'Glass Style',
+      path: '/glassStyle',
+      component: () => import('../features/GlassStyle.vue'),
+    },
   ],
 })
 

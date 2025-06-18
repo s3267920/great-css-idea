@@ -1,19 +1,26 @@
-<template>
-	<div class="max-w-xl mx-auto p-4">
-		<h2>Quick Flip Text</h2>
-		<ul class="quick-flip-list" role='list'>
-			<li class="quick-flip-animate" data-attr="Use Animate">
-				<a href="#"><span aria-hidden="true">01</span>Home </a>
-			</li>
-			<li class="quick-flip-shadow" data-attr="Use Text Shadow">
-				<a href="#"><span aria-hidden="true">02</span>About</a>
-			</li>
-			<li class="quick-flip" data-attr="Use Translate and Transform">
-				<a href="#"><span aria-hidden="true">03</span>Contact</a>
-			</li>
+<script setup lang="ts">
+import BaseLayout from '@/components/BaseLayout.vue';
 
-		</ul>
-	</div>
+</script>
+
+<template>
+	<BaseLayout reference="https://www.youtube.com/watch?v=9skKBYLt738">
+		<div class="max-w-xl mx-auto p-4">
+			<h2>Quick Flip Text</h2>
+			<ul class="quick-flip-list" role='list'>
+				<li class="quick-flip-animate" data-attr="Use Animate">
+					<a href="#"><span aria-hidden="true">01</span>Home </a>
+				</li>
+				<li class="quick-flip-shadow" data-attr="Use Text Shadow">
+					<a href="#"><span aria-hidden="true">02</span>About</a>
+				</li>
+				<li class="quick-flip" data-attr="Use Translate and Transform">
+					<a href="#"><span aria-hidden="true">03</span>Contact</a>
+				</li>
+
+			</ul>
+		</div>
+	</BaseLayout>
 </template>
 
 <style scoped lang="scss">
